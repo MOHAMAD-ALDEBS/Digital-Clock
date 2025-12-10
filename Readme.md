@@ -4,7 +4,7 @@ Gerçek zamanlı dijital saat uygulaması. Modern tasarım ve sorunsuz performan
 
 ## 📸 Proje Ekran Görüntüsü
 
-![Digital Clock](img/ss.jpg)
+![Digital Clock](img/ss.png)
 
 ## 🎯 Özellikler
 
