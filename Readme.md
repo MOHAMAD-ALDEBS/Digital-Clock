@@ -63,7 +63,3 @@ Digital Clock/
 ## 📝 License
 
 This project is freely available for use and modification.
-
-## 👨‍💻 Developer
-
-Created: 2024
