@@ -1,69 +1,69 @@
 # Digital Clock
 
-Gerçek zamanlı dijital saat uygulaması. Modern tasarım ve sorunsuz performans ile saati 12 saatlik AM/PM formatında gösterir.
+A real-time digital clock application. With modern design and seamless performance, it displays the time in 12-hour AM/PM format.
 
-## 📸 Proje Ekran Görüntüsü
+## 📸 Project Screenshot
 
 ![Digital Clock](img/ss.png)
 
-## 🎯 Özellikler
+## 🎯 Features
 
-- ⏰ Gerçek zamanlı saat güncellemesi (her saniye)
-- 🕐 12 saatlik AM/PM formatı
-- 🎨 Modern ve şık arayüz
-- 📱 Responsive tasarım
-- 🌙 Arka plan görseli ile estetik görünüm
-- 📦 Kutucuk içinde saat, dakika, saniye ve dönem göstergesi
+- ⏰ Real-time clock update (every second)
+- 🕐 12-hour AM/PM format
+- 🎨 Modern and elegant interface
+- 📱 Responsive design
+- 🌙 Aesthetic appearance with background image
+- 📦 Time, minutes, seconds, and period indicator in boxes
 
-## 📋 Dosya Yapısı
+## 📋 File Structure
 
 ```
 Digital Clock/
-├── index.html      # HTML yapısı
-├── style.css       # Stil dosyası
-├── script.js       # JavaScript işlevleri
-├── Readme.md       # Bu dosya
+├── index.html      # HTML structure
+├── style.css       # Styling file
+├── script.js       # JavaScript functionality
+├── Readme.md       # This file
 └── img/
-    └── background.jpg  # Arka plan görseli
+    └── background.jpg  # Background image
 ```
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 
-- **HTML5** - Sayfa yapısı
-- **CSS3** - Stil ve tasarım (Flexbox)
-- **JavaScript** - Dinamik saat işlevselliği
+- **HTML5** - Page structure
+- **CSS3** - Styling and design (Flexbox)
+- **JavaScript** - Dynamic clock functionality
 
-## 🚀 Nasıl Kullanılır?
+## 🚀 How to Use?
 
-1. Dosyaları bilgisayarınıza indirin
-2. `index.html` dosyasını web tarayıcınızda açın
-3. Gerçek zamanlı saati izleyin
+1. Download the files to your computer
+2. Open `index.html` in your web browser
+3. Watch the real-time clock update
 
-## 💻 Kod Özellikleri
+## 💻 Code Features
 
 ### JavaScript (script.js)
-- `updateClock()` fonksiyonu her saniye çalışır
-- Saati 12 saatlik formata dönüştürür
-- AM/PM değerini otomatik olarak ayarlar
-- 10'dan küçük sayıları 0 ile başlatır (01, 02, vb.)
+- `updateClock()` function runs every second
+- Converts time to 12-hour format
+- Automatically sets AM/PM value
+- Adds leading zeros to numbers less than 10 (01, 02, etc.)
 
 ### CSS (style.css)
-- **Flexbox** ile responsive layout
-- **RGBA renkleri** ile şeffaf kutucuklar
-- **Text-shadow** efektleri ile derinlik
-- Farklı boyutlarda kutucuklar (saat: 90x90px, AM/PM: 50x50px)
+- Responsive layout with **Flexbox**
+- Transparent boxes with **RGBA colors**
+- Depth effect with **Text-shadow**
+- Different sized boxes (clock: 90x90px, AM/PM: 50x50px)
 
-## 🎨 Tasarım Detayları
+## 🎨 Design Details
 
-- **Ana Kutucuklar**: 90x90 piksel, koyu arka plan (rgba(0, 0, 0, 0.5))
-- **AM/PM Kutucuğu**: 50x50 piksel, açık arka plan (rgba(255, 255, 255, 0.2))
-- **Border Radius**: 5px (dik köşeler)
+- **Main Boxes**: 90x90 pixels, dark background (rgba(0, 0, 0, 0.5))
+- **AM/PM Box**: 50x50 pixels, light background (rgba(255, 255, 255, 0.2))
+- **Border Radius**: 5px (sharp corners)
 - **Font Family**: Segoe UI, Tahoma, Geneva, Verdana, sans-serif
 
-## 📝 Lisans
+## 📝 License
 
-Bu proje özgürce kullanılabilir ve düzenlenebilir.
+This project is freely available for use and modification.
 
-## 👨‍💻 Geliştirici
+## 👨‍💻 Developer
 
-Hazırlanma Tarihi: 2024
+Created: 2024
